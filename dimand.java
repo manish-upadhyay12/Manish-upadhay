@@ -1,6 +1,6 @@
 package pattern;
 
-public class A_Printing {
+public class dimand {
     public static void main(String[] args) {
 
         int n = 5;
@@ -19,4 +19,5 @@ public class A_Printing {
           System.out.println();
         }
     }
+
 }
