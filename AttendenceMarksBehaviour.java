@@ -3,6 +3,8 @@ import java.util.*;
 public class AttendenceMarksBehaviour {
     public static void main(String[] args) {
         Scanner  ma = new Scanner(System.in);
+        System.out.print("Enter subject: ");
+		String subject = ma.nextLine();
         System.out.print("Enter number of Student :");  
         int n = ma.nextInt();  // take input how many student means length of array
     
@@ -39,7 +41,7 @@ public class AttendenceMarksBehaviour {
             sum+= arr[i];                        // add all marks
         }
         Average = (double)sum/n;     /// find average of marks
-        System.out.println("Class summary");  
+         System.out.println("Class summary :" + " " + subject); 
         System.out.println("Highest marks  = " + Highest);   
         System.out.println("lowest marks  = " + lowest);
         System.out.println("Average marks  = " + Average +"%");
